@@ -1,5 +1,2 @@
 #!/bin/bash
-int main(void)
-{
-    return (0);
-}
+echo gcc *.c >> c
