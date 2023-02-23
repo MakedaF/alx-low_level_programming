@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -o $CFILE > main.o
+echo -c $CFILE -o  main.o
