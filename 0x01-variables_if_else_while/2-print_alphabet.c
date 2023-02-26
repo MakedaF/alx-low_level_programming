@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <sdlib.h>
+#include <stdlib.h>
 #include <time.h>
 /**
  * main - prints the alphabet in lower case
