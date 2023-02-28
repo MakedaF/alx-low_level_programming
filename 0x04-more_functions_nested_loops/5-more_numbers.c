@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_most_numbers - print the numbers from 0 up to 14
+ * more_numbers - print 10 times the numbers from 0 up to 14
  * Return: 10 times of the numbers from 0 up to 14
  */
-void more_number(void)
+void more_numbers(void)
 {
 	int x, y;
 
