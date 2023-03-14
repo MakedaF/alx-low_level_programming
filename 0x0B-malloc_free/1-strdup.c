@@ -3,11 +3,11 @@
 #include "main.h"
 
 /**
- * _stdup - duplicate to new memory space location
+ * _strdup - duplicate to new memory space location
  * @str: char
  * Return: Always 0 (Success)
  */
-char*_strdup(char *str)
+char *_strdup(char *str)
 {
 	char *aaa;
 	int i, r = 0;
@@ -19,7 +19,7 @@ char*_strdup(char *str)
 	while (str[i] != '\0')
 		i++;
 
-	aaa  = malloc(sizeof(char)*(i + 1));
+	aaa  = malloc(sizeof(char) * (i + 1));
 
 	if (aaa == NULL)
 		return (NULL);
