@@ -5,7 +5,7 @@
  * str_concat - get concatenates the ends of two inputs
  * @s1: input one
  * @s2: input two
- * Return: concat of s1 and s2
+ * Return: concat of s1 and s2, or NULL on failure
  *
  */
 char *str_concat(char *s1, char *s2)
@@ -35,7 +35,7 @@ char *str_concat(char *s1, char *s2)
 		conct[i] = s1[i];
 		i++;
 	}
-	while (s1[ci] != '\0')
+	while (s2[ci] != '\0')
 	{
 		conct[i] = s2[ci];
 		i++, ci++;
