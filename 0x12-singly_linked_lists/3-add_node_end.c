@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -8,7 +8,7 @@
  * @head: double pointer to the list_t list
  * @str: the string to be added in the node
  *
- * Returns: the address of the new added node(Success), else NULL
+ * Return: the address of the new added node(Success), else NULL
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
