@@ -45,7 +45,7 @@ int binary_search(int *array, size_t size, int value)
 			r = mid - 1;
 		}
 		else
-		{ return (int)mid;
+		{ return mid;
 		}
 	} return -1;
 }
