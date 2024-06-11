@@ -7,7 +7,7 @@
  *
  * Return: value of (base ^ power)
  */
-void print_binary(unsigned long int n)
+unsigned long int _pow(unsigned int base, unsigned int power)
 {
 	unsigned long int num;
 	unsigned int a;
